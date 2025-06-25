@@ -1,0 +1,199 @@
+.theUltimateWrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #27393f;
+}
+
+.articleWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 0 20px;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #e4e4d9;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 1px #152429;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.sidebar img {
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.authorImage{
+    width: 200px;
+    object-fit: cover;
+}
+
+.ads img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.actualArticle {
+    width: 1000px;
+    background-color: rgb(244, 244, 233);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 1px #152429;
+}
+
+.articleHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.articleHeader h1 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: bodoni moda;
+}
+
+.articleHeader p:last-child {
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+.separator {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.articleContent {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.floatImageBlock {
+    overflow: auto;
+}
+
+.floatImageBlock img {
+    float: left;
+    margin-right: 20px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.floatImageBlock p {
+    text-align: justify;
+}
+
+.floatRight img {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.resources {
+    padding: 10px 0;
+}
+
+.resources ul {
+    list-style-type: disc;
+    padding-left: 25px;
+}
+
+.resources p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sns {
+    width: 100%;
+}
+
+.sns_header {
+    margin-bottom: -10px;
+    text-align: center;
+}
+
+.socialscontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 20px;
+    background-color: transparent;
+}
+
+.social {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid rgb(194, 194, 194);
+    transition: background 0.3s ease;
+}
+
+.social svg {
+    fill: white;
+    height: 20px;
+}
+
+.socialtwitter:hover {
+    background: linear-gradient(45deg, #66757f, #00acee, #36daff, #dbedff);
+}
+
+.socialfacebook:hover {
+    background: linear-gradient(45deg, #134ac0, #316ff6, #78a3ff);
+}
+
+.socialwhatsapp:hover {
+    background: linear-gradient(45deg, #246b0f, #248232, #4dc058);
+}
+
+.socialinstagram:hover {
+    background: linear-gradient(
+        45deg,
+        #f09433 0%,
+        #e6683c 25%,
+        #dc2743 50%,
+        #cc2366 75%,
+        #bc1888 100%
+    );
+}
+
+#whatsapp {
+    height: 38px;
+    width: 38px;
+}
+
+
+.imageBlock {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.imageBlock img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.caption {
+  font-style: italic;
+  color: gray;
+  margin-top: 0.5rem;
+}

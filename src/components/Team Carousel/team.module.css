@@ -1,0 +1,81 @@
+.upperContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.firstWrapper {
+    width: 300px;
+    height: 500px;
+    border: solid 1px #bebebe;
+    box-shadow: 0px 8px 20px -10px #bbbbbb;
+    position: absolute;
+    z-index: 2;
+    top: 1730px;
+    left: 250px;
+    object-fit: cover;
+}
+
+.firstWrapper img {
+    width: 300px;
+    height: 500px;
+}
+
+.secondWrapper {
+    width: 700px;
+    height: 500px;
+    border: solid 1px rgb(240, 233, 220);
+    background: #152429;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 20px -10px #bbbbbb;
+    text-shadow: 0px 0px 5px #ffffff22;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.secondWrapper a {
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    padding-right: 50px;
+    padding-left: 80px;
+    margin-left: 70px;
+}
+
+.content h2 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgba(44, 134, 119, 0.699),
+        0 0 5px rgba(0, 139, 113, 0.662);
+}
+
+.arrowButtons {
+    display: flex;
+    gap: 80px;
+}
+
+.arrowButtons button {
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 250px;
+    height: 25px;
+    transition: 0.3s ease-in-out;
+    background-color: #264949;
+    box-shadow: 0 0 0 3px #3e696d5f;
+    color: #fff;
+}
+
+.arrowButtons button:hover {
+    box-shadow: 0 0 0 5px #2f4e515f;
+    background-color: #213f3f;
+}

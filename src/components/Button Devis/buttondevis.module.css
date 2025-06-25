@@ -1,0 +1,16 @@
+.buttondevis{
+  width: 350px;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 100px;
+  background-color: rgba(0, 255, 255, 0);
+  font-size: 18px;
+  font-family: Quicksand;
+  color: white;
+  cursor: pointer;
+}
+
+.buttondevis:hover{
+    background-color: rgba(191, 227, 227, 0.219);
+
+}

@@ -1,0 +1,45 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-bodoni: 'Bodoni Moda', serif;
+  --font-quicksand: 'Quicksand', sans-serif;
+}
+
+.heading {
+  font-family: var(--font-bodoni);
+}
+
+
+.text {
+  font-family: var(--font-quicksand);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  overflow-x: hidden;
+  background-color: #152429;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+/* Hide scrollbar for all browsers */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+  
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari */
+}

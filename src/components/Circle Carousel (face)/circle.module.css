@@ -1,0 +1,123 @@
+.upperContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.firstWrapper {
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    border: solid 1px #bebebe;
+    box-shadow: 0px 8px 20px -10px #bbbbbb;
+    position: absolute;
+    z-index: 2;
+    left: 7%;
+    margin-bottom: 10px;
+}
+
+.firstWrapper img {
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+}
+
+.secondWrapper {
+    width: 1100px;
+    height: 300px;
+    border-radius: 40px 180px 180px 40px;
+    border: solid 1px #bebebe;
+    color: #fff;
+    box-shadow: 0px 8px 20px -10px #bbbbbb;
+    text-shadow: 0px 0px 5px #ffffff22;
+    background-image: url("/images/BG7.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+    left: 10%;
+        font-family: Quicksand;
+
+}
+
+.secondWrapper a{
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    padding-left: 210px;
+    padding-right: 50px;
+}
+
+.content h2 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgba(44, 134, 119, 0.699),
+        0 0 5px rgba(0, 139, 113, 0.662);
+            font-family: Bodoni Moda;
+
+}
+
+.content p {
+    padding-left: 20px;
+}
+
+.ctaButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.ctaButtons button {
+    padding: 8px 200px 8px 200px;
+    border-radius: 50px;
+    background: #d4f36500;
+    border: 1px solid #ffffff;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+    color: white;
+}
+
+.ctaButtons button:hover {
+    box-shadow: 7px 5px 26px -5px #05b07d;
+}
+
+.ctaButtons button:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px #05b07d;
+}
+
+.arrowButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.arrowButtons button {
+    border: none;
+    cursor: pointer;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    transition: 0.3s ease-in-out;
+    background-color: #264949;
+    box-shadow: 0 0 0 3px #3e696d5f;
+    color: #fff;
+    position: relative;
+    top: 0px;
+    left: 20px;
+}
+
+.arrowButtons button:hover {
+    box-shadow: 0 0 0 5px #2f4e515f;
+    background-color: #213f3f;
+}
