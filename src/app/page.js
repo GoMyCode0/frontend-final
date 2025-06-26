@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
-export default function HomePage() {   // <-- named function
+export default function HomePage() {  
   return (
     <div className={styles.page}>
       
