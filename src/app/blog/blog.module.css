@@ -1,8 +1,4 @@
-body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
+
 
 .blog {
     background-color: #152429;
@@ -10,6 +6,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .wrapper {
