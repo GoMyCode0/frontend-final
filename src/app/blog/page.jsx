@@ -12,7 +12,7 @@ export default function Blog() {
   const [visibleCount, setVisibleCount] = useState(4);
 
   useEffect(() => {
-    fetch("http://localhost:3001/api/articles")
+    fetch("https://backend-final-lj3i.onrender.com/api/articles")
       .then((res) => res.json())
       .then((data) => {
         console.log('Fetched articles:', data);
