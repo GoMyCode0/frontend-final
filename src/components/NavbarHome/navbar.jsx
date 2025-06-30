@@ -3,7 +3,7 @@ import styles from "./navbar.module.css";
 
 export default function NavbarHome() {
     return (
-        <div style={{ padding: '2rem' }}>
+        <div style={{ padding: '1rem' }}>
             <div className={styles.dropdown}>
                 <button className={styles.dropbtn}>
                     Menu <svg

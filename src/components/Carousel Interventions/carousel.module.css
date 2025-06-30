@@ -39,6 +39,7 @@
     padding-right: 30px;
 
     font-family: Quicksand;
+    font-size: 15px;
 }
 
 .content h2 {
@@ -46,11 +47,10 @@
     text-shadow: 1px 1px 2px black, 0 0 25px rgba(44, 134, 119, 0.699),
         0 0 5px rgba(0, 139, 113, 0.662);
     font-family: Bodoni Moda;
+    font-size: 20px;
+    
 }
 
-.content h2:first-child{
-margin-bottom: -15px;
-}
 
 .ctaButtons {
     display: flex;
@@ -69,6 +69,7 @@ margin-bottom: -15px;
     transition: 0.4s;
     color: white;
     font-family: Quicksand;
+    font-size: 12px;
 }
 
 .ctaButtons button:hover {
@@ -88,6 +89,8 @@ margin-bottom: -15px;
 
 .arrowButtons button {
     font-family: Quicksand;
+        font-size: 12px;
+
     border: none;
     cursor: pointer;
     border-radius: 8px;

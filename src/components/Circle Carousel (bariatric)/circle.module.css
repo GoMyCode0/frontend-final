@@ -41,7 +41,6 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    gap: 20px;
     padding: 20px;
     position: relative;
     left: 10%;
@@ -56,6 +55,7 @@
     padding-left: 210px;
     padding-right: 50px;
     font-family: Quicksand;
+    font-size: 20px;
 }
 
 .content h2 {
@@ -63,6 +63,8 @@
     text-shadow: 1px 1px 2px black, 0 0 25px rgba(44, 134, 119, 0.699),
         0 0 5px rgba(0, 139, 113, 0.662);
     font-family: Bodoni Moda;
+        font-size: 30px;
+
 }
 
 .content p {
@@ -86,6 +88,7 @@
     transition: 0.4s;
     color: white;
     font-family: Quicksand;
+    font-size: 15px;
 }
 
 .ctaButtons button:hover {

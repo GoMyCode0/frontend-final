@@ -17,8 +17,8 @@ const carouselItems = [
     {
         src: "/images/breast2.jpg", title: "Augmentation Mammaire", description: (
             <>
-                <h2 className="text-lg font-semibold mb-1"> "Sublimez votre féminité:</h2> <p>L’augmentation mammaire consiste à augmenter le volume des seins à l’aide d’implants ou de lipofilling.</p>
-                <p> Cette intervention permet de retrouver une silhouette harmonieuse, de corriger une asymétrie ou de restaurer le galbe après une grossesse ou une perte de poids." </p>
+                <h2 className="text-lg font-semibold mb-1"> Sublimez votre féminité:</h2> <p>L’augmentation mammaire consiste à augmenter le volume des seins à l’aide d’implants ou de lipofilling.</p>
+                <p> Cette intervention permet de retrouver une silhouette harmonieuse, de corriger une asymétrie ou de restaurer le galbe après une grossesse ou une perte de poids. </p>
             </>
         ),
     },
@@ -26,8 +26,8 @@ const carouselItems = [
     {
         src: "/images/nose.jpg", title: "Rhinoplastie", description: (
             <>
-                <h2 className="text-lg font-semibold mb-1"> "Affinez les traits de votre visage:</h2> <p>La rhinoplastie est une chirurgie du nez qui vise à corriger sa forme, sa taille ou ses proportions. </p>
-                <p>Elle permet d’améliorer l’esthétique du visage tout en respectant l’harmonie globale et peut également corriger des troubles respiratoires."  </p>
+                <h2 className="text-lg font-semibold mb-1"> Affinez les traits de votre visage:</h2> <p>La rhinoplastie est une chirurgie du nez qui vise à corriger sa forme, sa taille ou ses proportions. </p>
+                <p>Elle permet d’améliorer l’esthétique du visage tout en respectant l’harmonie globale et peut également corriger des troubles respiratoires. </p>
             </>
         ),
     },
@@ -35,8 +35,8 @@ const carouselItems = [
     {
         src: "/images/blépharoplastie1.jpg", title: "Blépharoplastie", description: (
             <>
-                <h2 className="text-lg font-semibold mb-1"> "Rajeunissez votre regard:</h2> <p>La blépharoplastie corrige les paupières tombantes et les poches sous les yeux, signes visibles de fatigue ou de vieillissement.</p>
-                <p> Cette intervention redonne éclat et jeunesse au regard tout en conservant son expression naturelle."
+                <h2 className="text-lg font-semibold mb-1"> Rajeunissez votre regard:</h2> <p>La blépharoplastie corrige les paupières tombantes et les poches sous les yeux, signes visibles de fatigue ou de vieillissement.</p>
+                <p> Cette intervention redonne éclat et jeunesse au regard tout en conservant son expression naturelle.
                 </p>
             </>
         ),
@@ -45,8 +45,8 @@ const carouselItems = [
     {
         src: "/images/lifting1.jpg", title: "Lifting Cervico-Facial", description: (
             <>
-                <h2 className="text-lg font-semibold mb-1"> "Retrouvez la fraîcheur de votre visage:</h2> <p>Le lifting cervico-facial traite le relâchement cutané du visage et du cou.</p>
-                <p> Il permet de redéfinir l’ovale du visage, lisser les rides et retrouver une apparence plus jeune, tout en garantissant un résultat naturel."
+                <h2 className="text-lg font-semibold mb-1"> Retrouvez la fraîcheur de votre visage:</h2> <p>Le lifting cervico-facial traite le relâchement cutané du visage et du cou.</p>
+                <p> Il permet de redéfinir l’ovale du visage, lisser les rides et retrouver une apparence plus jeune, tout en garantissant un résultat naturel.
                 </p>
             </>
         ),
@@ -55,8 +55,8 @@ const carouselItems = [
     {
         src: "/images/tummytuck.jpg", title: "Abdominoplastie", description: (
             <>
-                <h2 className="text-lg font-semibold mb-1"> "Un ventre plat et tonique: </h2> <p>L’abdominoplastie est une chirurgie du ventre qui vise à retirer l’excès de peau et de graisse, souvent après une grossesse ou une perte de poids importante. </p>
-                <p>Elle permet de retrouver un abdomen plus ferme et plus plat."
+                <h2 className="text-lg font-semibold mb-1"> Un ventre plat et tonique: </h2> <p>L’abdominoplastie est une chirurgie du ventre qui vise à retirer l’excès de peau et de graisse, souvent après une grossesse ou une perte de poids importante. </p>
+                <p>Elle permet de retrouver un abdomen plus ferme et plus plat.
                 </p>
             </>
         ),
@@ -65,7 +65,7 @@ const carouselItems = [
     {
         src: "/images/lips.jpg", title: "Lip Fillers", description: (
             <>
-                <h2 className="text-lg font-semibold mb-1"> "Sublimez votre sourire avec élégance:</h2> <p>Les injections d’acide hyaluronique permettent de redessiner les lèvres, d’en augmenter le volume ou simplement d’en améliorer l’hydratation et la définition."
+                <h2 className="text-lg font-semibold mb-1"> Sublimez votre sourire avec élégance:</h2> <p>Les injections d’acide hyaluronique permettent de redessiner les lèvres, d’en augmenter le volume ou simplement d’en améliorer l’hydratation et la définition.
                 </p>
             </>
         ),
@@ -74,7 +74,7 @@ const carouselItems = [
     {
         src: "/images/face.jpg", title: "Botox", description: (
             <>
-                <h2 className="text-lg font-semibold mb-1"> "Redéfinissez votre expressivité avec finesse:</h2> <p>Les injections de toxine botulique ciblent les rides d’expression pour offrir un visuel plus lisse et naturel."
+                <h2 className="text-lg font-semibold mb-1"> Redéfinissez votre expressivité avec finesse:</h2> <p>Les injections de toxine botulique ciblent les rides d’expression pour offrir un visuel plus lisse et naturel.
                 </p>
             </>
         ),
@@ -83,7 +83,7 @@ const carouselItems = [
     {
         src: "/images/hair.jpg", title: "Greffe de cheveux", description: (
             <>
-                <h2 className="text-lg font-semibold mb-1"> "Révélez votre densité capillaire:</h2> <p>Cette procédure attire un large public, notamment en Inde et en Allemagne, avec environ 117 000 recherches mensuelles."
+                <h2 className="text-lg font-semibold mb-1"> Révélez votre densité capillaire:</h2> <p>Cette procédure attire un large public, notamment en Inde et en Allemagne, avec environ 117 000 recherches mensuelles.
                 </p>
             </>
         ),
@@ -92,7 +92,7 @@ const carouselItems = [
     {
         src: "/images/gynéco.jpg", title: "Gynécomastie", description: (
             <>
-                <h2 className="text-lg font-semibold mb-1"> "Retrouvez une poitrine masculine :</h2> <p>La gynécomastie est une intervention destinée à corriger un développement excessif des glandes mammaires chez l’homme."
+                <h2 className="text-lg font-semibold mb-1"> Retrouvez une poitrine masculine :</h2> <p>La gynécomastie est une intervention destinée à corriger un développement excessif des glandes mammaires chez l’homme.
                 </p>
             </>
         ),
@@ -101,7 +101,7 @@ const carouselItems = [
     {
         src: "/images/abs1.jpg", title: "Sculpture des Abdominaux", description: (
             <>
-                <h2 className="text-lg font-semibold mb-1"> "Définissez votre musculature avec précision:</h2> <p>La sculpture abdominale est une technique de liposuccion haute définition pour faire ressortir les muscles." </p>
+                <h2 className="text-lg font-semibold mb-1"> Définissez votre musculature avec précision:</h2> <p>La sculpture abdominale est une technique de liposuccion haute définition pour faire ressortir les muscles. </p>
             </>
         ),
     },
